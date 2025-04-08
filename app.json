@@ -14,7 +14,7 @@
   "env": {
     "PREFIX": {
       "description": "choose your bot prefix",
-      "value": "#",
+      "value": ".",
       "required": true
     },
     "AUTO_READ_STATUS": {
@@ -34,7 +34,7 @@
     },
     "BOT_NAME": {
       "description": "put a name for your bot",
-      "value": "Zokou-MD",
+      "value": "SHADOW MD",
       "required": false
     },
     "BOT_MENU_LINKS": {
@@ -57,18 +57,18 @@
     },
     "SESSION_ID": {
       "description": "put your session ID, the code you receive after scanning the QR code",
-      "value": "",
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNEFxUXJEYjkvSUFMUkN3OHVVZWt1Q0VEYVk4RmE0VURNUU5JdHR3eHBsYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidU5IaDE3OWlQRjRDb2x6T0FCaHFMbE5lclVLTmcrWFZ6UFB2em51SVZHTT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJBQXFPalZzRHFmekkyQkVWbkNGSHNhY1R5bXFXNEJiMVBFRDdXUU5TS1hJPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJkNDJST0RFb0lNUC9laXBzTDJ3Nkw1MUhMSnlyR2dtV2o0VXFRdkVaTkFvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlNLbDNiMlhudm52NlllY0YwMlBkdnAwMFd3L093SWcwcmlvdm5KVGM1bHc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJBM2trWDJYblRveWUvNTd0VFM0eG9mZVozNWU4RmYyN2JjYnkzem1aUzA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU0U2VGhxWkJxNDRZR2lSWjRwcmtackZ0K2xJcndLREljOE5Eb0hQWkpXZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNWhmTkdSU3JOa1ZLWjJQWDlnMkV2YVFjR2cyS2w3UUFPUVdnUXlTTWtrbz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZqNCtQMTdiTDF2YTMvY0M3bG9CcmFaRFRMdlp5Z01ZNDhUVzRQeUlPV0l1TTd5cWVKM0V2aEFsQmszRTQyWTkwVyttQ2psbFlCVzR3dllHYmE0Q0RBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjE1LCJhZHZTZWNyZXRLZXkiOiJaMTVkS1MwYy9aSGFvT05WcURqa0tTc3d3RnR5ek1QdzhCcTNLbWNKWk0wPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjI2MzcxNDE4MzI2MUBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiIwN0Q3MzNDMTU1MUJDMUJFREUwNTU5ODFCMDdEMDc2NiJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzQ0MTM0NTQ2fV0sIm5leHRQcmVLZXlJZCI6NjEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjo2MSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJhVFZ4WERTZVQtR1FIUWR6TUFabnZnIiwicGhvbmVJZCI6Ijk2MDYxZWY0LTJmNDYtNDU3OC1hNDRmLTc2MzdiYzZkZDVmZSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJJcVc3TXU4RzlmbEcxSEd2aWdFUk1hYWRWVmc9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkhhelpwZzFDMlRqdW03VGhMRVBNZUc5MHU0TT0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ05tSTJaZ0dFUDdDMWI4R0dBTWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ik9IMitvNWZMM0kxMHlhUUY1cG9PN21EalIwamRCdHh3eE0yOGQ3Tjl3alk9IiwiYWNjb3VudFNpZ25hdHVyZSI6ImlpNFBGOXRUM2pJMFJSanl3S1BFTG9hWnFpQ0V4TUZ3aE0za3FvR3dWamlxUmkvWEY2S3lHQWRzbW0ySUJJbC9LNE41Q3F1ejhZL1hKcmVIR2F3bkJnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJueFA1dXRickJMZ0FtSzJsbElieFRienhoWlBDbjlaTUNFalA3TXp1OVV2Y3FKVS9NdzI2bS9yVnZURlE0SnRYeVIyYnpoRnpOZlJKNjdrNll3NW5CQT09In0sIm1lIjp7ImlkIjoiMjYzNzE0MTgzMjYxOjZAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiU0hBRE9XIFdBTEtFUiIsImxpZCI6Ijc0NTc0MDg3NjIyNzM5OjZAbGlkIn0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI2MzcxNDE4MzI2MTo2QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlRoOXZxT1h5OXlOZE1ta0JlYWFEdTVnNDBkSTNRYmNjTVROdkhlemZjSTIifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNBZ0lEUT09In0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc0NDEzNDU0MSwibGFzdFByb3BIYXNoIjoiMkc0QW11IiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFLaFMifQ==",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Your Name",
       "required": false,
-      "value": "Djalega++"
+      "value": "Mandishona Innocent"
     },
     "NUMERO_OWNER": {
       "description": "Your number, don't put '+' and include your area code (example for Togo '255')",
       "required": false,
-      "value": "255756530143"
+      "value": "263714183261"
     },
     "WARN_COUNT": {
       "description": "this is the limit of warnings for warning commands",
